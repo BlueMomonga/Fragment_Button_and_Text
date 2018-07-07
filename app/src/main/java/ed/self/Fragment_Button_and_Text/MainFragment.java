@@ -32,7 +32,7 @@ public class MainFragment extends Fragment {
         args.putString(KEY_NAME, name);
         args.putInt(KEY_BACKGROUND, color);
 
-        // Fragmentに値をセットする
+        // Fragmentに値をセット
         fragment.setArguments(args);
         return fragment;
     }
