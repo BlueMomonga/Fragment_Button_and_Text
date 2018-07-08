@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        // 画面がはじめて作成された時ににだけ、Fragmentを追加する
+        // 画面がはじめて作成された時ににだけ、Fragmentを追加
         if (savedInstanceState == null) {
             MainFragment fragment = new MainFragment();
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
